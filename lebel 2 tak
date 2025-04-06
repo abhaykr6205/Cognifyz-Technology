@@ -1,0 +1,49 @@
+ <!-- Level 2: Intermediate Task 3: Responsive Design --> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design and intractive button</title>
+    <link rel="stylesheet" href="new.css">
+</head>
+<body>
+
+    <section>
+        <div class="container">
+            <div class="img">
+                <img src="https://cognifyz.com/wp-content/uploads/2023/11/cognifyz-1.png" alt="cognifyz technology" class="img1">
+            </div>
+
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Contact</a>
+                <a href="#">News</a>
+                <a href="#">About</a>
+                <a href="#" class="menu">&#9776;</a>
+                </nav>
+        </div>
+    </section>
+
+    <section>
+    <main>
+        <div class="container1">
+            <div class="hero-part1">
+                <h1>Cognifyz Technology <span>Internship</span></h1>
+                <p>This is a paragraph And trying to Make Responsive Design</p>
+                <button class="left-btn" onclick="changeBackgroundColor()" type="button">Explore Now</button>
+            </div>
+    
+            <div class="hero-part2">
+                <img src="education.jpg" alt="education-img" class="hero-img">
+            </div>
+            
+        </div>
+    </main>
+
+</section>
+
+
+<script src="new.js"></script>
+</body>
+</html>
