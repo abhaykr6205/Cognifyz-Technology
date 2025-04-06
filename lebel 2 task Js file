@@ -1,0 +1,8 @@
+function changeBackgroundColor() {
+    // Array of colors
+    const colors = ['#ffcccb', '#ffeb3b', '#c8e6c9', '#81d4fa', '#ff8a80'];
+    // Pick a random color
+    const randomColor = colors[Math.floor(Math.random() * colors.length)];
+    // Change the background color
+    document.body.style.backgroundColor = randomColor;
+}
